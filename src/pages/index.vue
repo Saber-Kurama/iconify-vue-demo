@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import IconPicker from "../components/icon-picker";
+
+console.log("IconPicker", IconPicker);
 const user = useUserStore();
 const name = $ref(user.savedName);
 
@@ -53,6 +56,7 @@ const { t } = useI18n();
       </button>
     </div>
     <iconify-icon icon="ab-testing" />
+    <IconPicker />
   </div>
 </template>
 
