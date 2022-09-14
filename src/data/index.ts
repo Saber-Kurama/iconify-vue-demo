@@ -7,4 +7,8 @@ const preInstall = async () => {
    addCollection(menuInfo);
 };
 
+setTimeout(() => { 
+  preInstall();
+}, 10000)
+
 preInstall();

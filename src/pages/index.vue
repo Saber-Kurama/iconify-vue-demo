@@ -56,7 +56,8 @@ const { t } = useI18n();
       </button>
     </div>
     <iconify-icon icon="ab-testing" />
-    <IconPicker />
+    <!-- <IconPicker>
+    </IconPicker> -->
   </div>
 </template>
 
